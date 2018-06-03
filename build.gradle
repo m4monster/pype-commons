@@ -6,9 +6,6 @@
  * user guide available at https://docs.gradle.org/4.3/userguide/java_library_plugin.html
  */
 
-apply plugin: 'java'
-apply plugin: 'eclipse'
-
 allprojects {
 	version = "1.0"
 }
@@ -41,4 +38,5 @@ repositories {
     // Use jcenter for resolving your dependencies.
     // You can declare any Maven/Ivy/file repository here.
     jcenter()
+     mavenCentral()
 }
